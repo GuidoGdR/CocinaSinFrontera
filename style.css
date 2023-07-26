@@ -104,7 +104,7 @@
     top: -140px;
 }
 #tequenios-img img{
-    top: -160px;
+    top: -200px;
 }
 #principales-img img{
     top: -50px;
@@ -118,6 +118,13 @@
 #arroces-img img{
     top: -100px;
 }
+#bebidas-img img{
+    top: -25px;
+}
+#licuados-img img{
+    top: -50px;
+}
+
 
 /*    Section title    */
 .section-title{
