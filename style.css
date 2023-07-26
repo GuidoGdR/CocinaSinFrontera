@@ -1,0 +1,128 @@
+/*    Colors    */
+:root{
+    --primary: #F39C12;
+    --primary-hover: #b3730d;
+
+    --secondary:#27AE60;
+}
+
+.bg-my-primary{
+    background-color: var(--primary);
+}
+
+.btn-my-primary{
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-my-primary:hover {
+    color: #fff;
+    background-color: var(--primary-hover) ;
+    border-color: var(--primary-hover) ;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem var(--secondary);
+}
+
+/*    Logo (Header)    */
+#logo img{
+    height: 100%;
+    width: auto;
+}
+#logo{
+    height: 80px;
+}
+/*    Products list    */
+.products-list{
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+/*    Section IMG    */
+.section-img{
+
+    margin: 20px;
+
+    height: 150px;
+    width: 100%;
+    position: relative;
+    
+    overflow: hidden;
+    border: 5px solid  var(--primary);
+
+
+}
+.section-img::before{
+    background-color: var(--primary);
+    content: "";
+
+    height: 100%;
+    width: 150%;
+
+    transform: rotate(4deg);
+    
+    right: 25%;
+    top: 60%;
+    
+    border-radius: 0% 100% 0px 100px;
+
+    position: absolute;
+    z-index: 2;
+}
+
+.section-img::after{
+    background-color: var(--primary);
+    content: "";
+
+    height: 100%;
+    width: 150%;
+
+    transform: rotate(-4deg);
+    
+    right: -25%;
+    top: 86%;
+    
+    border-radius: 100% 0% 100px 0px;
+
+    position: absolute;
+    z-index: 2;
+}
+
+.section-img img{
+    width: 100%;
+    height: auto;
+
+    position: relative;
+    top: -160px;
+}
+
+/*    Section title    */
+.section-title{
+    border-radius: 0px 60% 60% 0px;    
+}
+.section-title-inverse{
+    border-radius: 60% 0% 0% 60%;    
+}
+
+
+
+/*    Contact (Modal)    */
+.contact-logo img{
+    height: 30px;
+    width: auto;
+}
+.contact-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.contact-info p{
+    display: block;
+    font-size: 20px;
+}
