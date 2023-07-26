@@ -97,7 +97,25 @@
     height: auto;
 
     position: relative;
+}
+
+#tradicionales-img img{
+    top: -140px;
+}
+#tequenios-img img{
     top: -160px;
+}
+#principales-img img{
+    top: -50px;
+}
+#empanadas-img img{
+    top: -25px;
+}
+#pastas-img img{
+    top: -190px;
+}
+#arroces-img img{
+    top: -100px;
 }
 
 /*    Section title    */
