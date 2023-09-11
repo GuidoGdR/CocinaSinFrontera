@@ -45,7 +45,7 @@
 /*    Section IMG    */
 .section-img{
 
-    margin: 20px;
+    margin: 20px 0px 20px 0px;
 
     height: 150px;
     width: 100%;
@@ -128,7 +128,7 @@
 
 /*    Section title    */
 .section-title{
-    border-radius: 0px 60% 60% 0px;    
+    border-radius: 100%;  
 }
 .section-title-inverse{
     border-radius: 60% 0% 0% 60%;    

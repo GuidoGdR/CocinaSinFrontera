@@ -11,7 +11,7 @@
   <title>Cocina sin Frontera</title>
 
   <!--    Bootstrap css    -->
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
 
   <!--    my css    -->
   <link rel="stylesheet" href="style.css">
@@ -23,980 +23,171 @@
 
     <header class="row sticky-top">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border border-dark col-12">
-        <a id="logo" class="navbar-brand" href="">
-          <img src="img/logo.jpg" alt="Logo de Cocina sin Frontera">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border border-dark col-12 ">
+        <div class="container-fluid">
+          
+          <a id="logo" class="navbar-brand" href="#">
+            <img src="img/logo.jpg" alt="Logo de Cocina sin Frontera">
+          </a>
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Arepas
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#especiales">Especiales</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#tradicionales">Tradicionales</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#sencillas">Sencillas</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#tequeños">Tequeños</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#principales">Principales</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#empanadas">Empanadas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pastas">Pastas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#arroces">Arroces</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Bebidas
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#bebidas">Clasicas</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#licuados">Licuados</a>
-              </div>
-            </li>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-          <section class="form-inline my-2 my-lg-0">
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-my-primary text-dark" data-toggle="modal" data-target="#exampleModal">
-              Contacto
-            </button>
-          </section>
+            <ul id="menu-navbar" class="navbar-nav me-auto mb-2 mb-lg-0">
 
+
+              
+            </ul>
+            
+            <section class="d-flex">
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-secondary bg-my-primary text-dark" data-bs-toggle="modal" data-bs-target="#contact-modal">
+                Contacto
+              </button>
+
+            </section>
+          </div>
         </div>
       </nav>
+
+
+
 
     </header>
 
 
 
-    <main class="row justify-content-between">
+    <main class="row align-items-center" id="menu">
 
-      <!--    Arepas    -->
-      <div class="row justify-content-between ali">
 
-
-        <!--    Left Box    -->
-        <div class="col-12 col-lg-5">
-
-          <!--    ESPECIALES    -->
-          <section class="col-12">
-
-            <!--    Title    -->
-            <section id="especiales" class="row">
-
-              <div class="section-img">
-
-                <img src="img/especiales.jpg" alt="Foto de arepas">
-              </div>
-
-              <h3 class="bg-my-primary col-12 p-2 text-center section-title font-weight-bold">AREPAS ESPECIALES</h3>
-
-
-            </section>
-
-            <!--    Items    -->
-            <div class="products-list">
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Pabellón.</b>
-                  Carne mechada, poroto negro, tajada y queso llanero.
-                </h6>
-                <h6 class="col-2"><b>$1700</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Mixta.</b>
-                  Tapa de asado mechada y suprema de pollo deshilachado.
-                </h6>
-                <h6 class="col-2"><b>$1550</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Carne y queso.</b>
-                  Tapa de asado mechada con cebolla, morrón y queso llanero.
-                </h6>
-                <h6 class="col-2"><b>$1550</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Carne y panceta.</b>
-                  Tapa de asado mechada con cebolla, morrón y panceta en fetas.
-                </h6>
-                <h6 class="col-2"><b>$1600</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>3 sabores.</b>
-                  Carne mechada, tajada y queso llanero.
-                </h6>
-                <h6 class="col-2"><b>$1600</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Carne sin frontera.</b>
-                  mechada, queso llanero, tajada y palta.
-                </h6>
-                <h6 class="col-2"><b>$1700</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10">
-                  <b>Pollo sin frontera.</b>
-                  Pollo deshebrado, queso llanero, tajada y palta.
-                </h6>
-                <h6 class="col-2"><b>$1700</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10">
-                  <b>Pescado sin frontera.</b>
-                  Gatuzo desmenuzado, queso llanero, tajada y palta.
-                </h6>
-                <h6 class="col-2"><b>$1700</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10">
-                  <b>Doble cerdo bondiola.</b>
-                  Cebolla caramelizada, BBQ y panceta.
-                </h6>
-                <h6 class="col-2"><b>$1700</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10">
-                  <b>Vegetariana.</b>
-                  Queso llanero, plátano maduro frito y palta.
-                </h6>
-                <h6 class="col-2"><b>$1550</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10">
-                  <b>Puerto madryn.</b>
-                  Ensalada tibia de langostinos, palta, tomate, cebolla morada, cilantro y un toque de limón.
-                </h6>
-                <h6 class="col-2"><b>$1900</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10">
-                  <b>Previa.</b>
-                  Huevo revuelto con langostinos y verdeo.
-                </h6>
-                <h6 class="col-2"><b>$1800</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10">
-                  <b>Americana.</b>
-                  Huevo revuelto con panceta y verdeo.
-                </h6>
-                <h6 class="col-2"><b>$1600</b></h6>
-
-              </section>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--    Rigth Box    -->
-        <div class="col-12 col-lg-5">
-
-          <!--    TRADICIONALES    -->
-          <section class="col-12">
-
-
-            <!--    Title    -->
-            <section id="tradicionales" class="row justify-content-end">
-
-              <div id="tradicionales-img" class="section-img">
-                <img src="img/tradicionales.jpg" alt="Foto de arepas" srcset="">
-              </div>
-
-              <h3 class="bg-my-primary col-12 p-2 text-center section-title-inverse font-weight-bold">AREPAS TRADICIONALES
-              </h3>
-
-            </section>
-
-            <!--    Items    -->
-            <div class="products-list">
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Pelúa.</b>
-                  Carne mechada con queso amarillo tipo gouda.
-                </h6>
-                <h6 class="col-2"><b>$1600</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Catira.</b>
-                  Pollo deshebrado con queso amarillo tipo gouda.
-                </h6>
-                <h6 class="col-2"><b>$1600</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Sifrina.</b>
-                  Reina pepiada con queso amarillo tipo gouda.
-                </h6>
-                <h6 class="col-2"><b>$1600</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Reina pepiada.</b>
-                  Suprema de pollo deshebrada pisada con palta mayoajo y un toque de limón.
-                </h6>
-                <h6 class="col-2"><b>$1600</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Dominó.</b>
-                  Poroto negro y queso llanero rallado.
-                </h6>
-                <h6 class="col-2"><b>$1550</b></h6>
-
-              </section>
-
-            </div>
-
-          </section>
-
-          <!--    SENCILLAS    -->
-          <section class="col-12">
-
-            <!--    Title    -->
-            <section id="sencillas" class="row mt-5">
-
-              <h3 class="bg-my-primary col-12 p-2 text-center section-title-inverse font-weight-bold">AREPAS SENCILLAS</h3>
-
-
-            </section>
-
-            <!--    Items    -->
-            <div class="products-list">
-
-              <section class="row">
-
-                <h6 class="col-10">
-                  <b>Viuda.</b>
-                </h6>
-
-                <h6 class="col-2"><b>$300</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Tapa de asado.</b>
-                  Mechada con morrones, cebolla y ajo.
-                </h6>
-                <h6 class="col-2"><b>$1550</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Cheta.</b>
-                  Suprema de pollo deshebrada con morrones, cebolla, cúrcuma y ajo.
-                </h6>
-                <h6 class="col-2"><b>$1550</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Fusión.</b>
-                  Bondiola con cebolla caramelizada y BBQ.
-                </h6>
-                <h6 class="col-2"><b>$1700</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Queso fresco.</b>
-                  Tipo llanero.
-                </h6>
-                <h6 class="col-2"><b>$1020</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Perico.</b>
-                  Tomate y cebolla salteada con huevo revuelto.
-                </h6>
-                <h6 class="col-2"><b>$1500</b></h6>
-
-              </section>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-
-      </div>
-
-      <!--    TEQUEÑOS Y SALSAS    -->
-      <div class="row justify-content-between ali">
-
-
-        <!--    Left Box    -->
-        <div class="col-12 col-lg-5">
-
-          <!--    TEQUEÑOS    -->
-          <section class="col-12">
-
-            <!--    Title    -->
-            <section id="tequeños" class="row">
-
-              <div id="tequenios-img" class="section-img">
-
-                <img src="img/tequenio.jpg" alt="Foto de tequeños (bastonsitos de masa con queso)">
-              </div>
-
-              <h3 class="bg-my-primary col-12 p-2 text-center section-title font-weight-bold">TEQUEÑOS CLASICOS</h3>
-
-              <h6 class="col-12"><b>Bastones de queso llanero envueltos en masa frita.</b>
-                Incluyen salsa de ajo.
-              </h6>
-
-            </section>
-
-            <!--    Items    -->
-            <div class="products-list">
-
-              <section class="row">
-
-                <h6 class="col-10"><b>12</b>
-                  Unidades.
-                </h6>
-                <h6 class="col-2"><b>$2400</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>6</b>
-                  Unidades.
-                </h6>
-                <h6 class="col-2"><b>$1350</b></h6>
-
-              </section>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--    Rigth Box    -->
-        <div class="col-12 col-lg-5">
-
-          <!--    SALSAS    -->
-          <section class="col-12">
-
-
-            <!--    Title    -->
-            <section class="row justify-content-end">
-
-              <div id="salsas-img" class="section-img">
-                <img src="img/salsas.jpg" alt="Foto de salsas">
-              </div>
-
-              <h3 class="bg-my-primary col-12 p-2 text-center section-title-inverse font-weight-bold">SALSAS
-              </h3>
-
-            </section>
-
-            <!--    Items    -->
-            <div class="products-list">
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Salsa de ajo</b>
-
-                </h6>
-                <h6 class="col-2"><b>$180</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Tártara</b>
-                </h6>
-                <h6 class="col-2"><b>$180</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Picante</b>
-                </h6>
-                <h6 class="col-2"><b>$180</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>BBQ</b>
-                </h6>
-                <h6 class="col-2"><b>$180</b></h6>
-
-              </section>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-
-      </div>
-
-
-
-      <!--    Left Box    -->
-      <div class="col-12 col-lg-5">
-
-
-        <!--    Title    -->
-        <section id="principales" class="row">
-
-          <div id="principales-img" class="section-img">
-
-            <img src="img/principales.jpg" alt="Foto de platos principales" srcset="">
-          </div>
-
-          <h3 class="bg-my-primary col-12 p-2 text-center section-title font-weight-bold">PRINCIPALES</h3>
-
-        </section>
-
-        <!--    Items    -->
-        <div class="products-list">
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Pabellón criollo en plato</b>
-              Carne mechada, poroto negro, arroz blanco, huevo frito y tajada.
-            </h6>
-            <h6 class="col-2"><b>$2600</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Suprema de pollo a la plancha de 250 gr.</b>
-              Con arroz blanco, ensalada de tomate, cebolla morada y palta.
-            </h6>
-            <h6 class="col-2"><b>$2500</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Pollo a la crema con verdeo.</b>
-              Acompañado con papas fritas.
-            </h6>
-            <h6 class="col-2"><b>$2500</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Chuleta ahumada a los 80.</b>
-              Con tajada y arroz.
-            </h6>
-            <h6 class="col-2"><b>$2600</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Chuleta ahumada al estilo alemán.</b>
-              Con papas fritas y chucrut.
-            </h6>
-            <h6 class="col-2"><b>$2600</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Wok.</b>
-              Salteado de pollo y langostinos con jamón, cebolla, puerro, verdeo, brotes de soja y salsa de soja.
-              Acompañado con arroz blanco.
-            </h6>
-            <h6 class="col-2"><b>$2600</b></h6>
-
-          </section>
-
-
-
-        </div>
-
-
-        <!--    Title    -->
-        <section id="pastas" class="row">
-
-          <div id="pastas-img" class="section-img">
-
-            <img src="img/pastas.jpg" alt="Foto de pastas">
-          </div>
-
-          <h3 class="bg-my-primary col-12 p-2 text-center section-title font-weight-bold">PASTAS</h3>
-
-
-        </section>
-
-        <!--    Items    -->
-        <div class="products-list">
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Espagueti fileto con pollo.</b>
-              Cebolla, puerro, fileto y queso parmesano.
-            </h6>
-            <h6 class="col-2"><b>$2700</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Espageti con camarones.</b>
-              Puerro, crema y queso parmesano.
-            </h6>
-            <h6 class="col-2"><b>$3000</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Sophia Loren.</b>
-              Pollo, camarón, panceta, cebolla, puerro, fileto, crema y queso.
-            </h6>
-            <h6 class="col-2"><b>$3000</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Carbonara.</b>
-              Panceta, cebolla y crema.
-            </h6>
-            <h6 class="col-2"><b>$2300</b></h6>
-
-          </section>
-
-        </div>
-
-      </div>
-
-      <!--    Rigth Box    -->
-      <div class="col-12 col-lg-5">
-
-        <!--    Title    -->
-        <section id="empanadas" class="row">
-
-          <div id="empanadas-img" class="section-img">
-
-            <img src="img/empanadas.jpg" alt="Foto de empanadas">
-          </div>
-
-          <h3 class="bg-my-primary col-12 p-2 text-center section-title-inverse font-weight-bold">EMPANADAS</h3>
-
-
-        </section>
-
-        <!--    Items    -->
-        <div class="products-list">
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Carne.</b>
-              Tapa de asado mechada.
-            </h6>
-            <h6 class="col-2"><b>$580</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Pollo.</b>
-              pollo deshebrado.
-            </h6>
-            <h6 class="col-2"><b>$580</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Pabellón.</b>
-              Tapa de asado mechada, poroto negro, queso llanero y tajada.
-            </h6>
-            <h6 class="col-2"><b>$680</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Cerdo.</b>
-              Bondiola desmenusada con cebolla caramelizada.
-            </h6>
-            <h6 class="col-2"><b>$580</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Pescado.</b>
-              Filete de gatuzo desmenuzado.
-            </h6>
-            <h6 class="col-2"><b>$580</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Queso blanco.</b>
-              Tipo llanero.
-            </h6>
-            <h6 class="col-2"><b>$580</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Jamón y queso.</b>
-              Jamón natural y queso llanero.
-            </h6>
-            <h6 class="col-2"><b>$580</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>Dominó.</b>
-              Poroto negro con queso tipo llanero.
-            </h6>
-            <h6 class="col-2"><b>$580</b></h6>
-
-          </section>
-
-        </div>
-
-        <!--    Title    -->
-        <section id="arroces" class="row">
-
-          <div id="arroces-img" class="section-img">
-
-            <img src="img/arroces.jpg" alt="Foto de arroces">
-          </div>
-
-          <h3 class="bg-my-primary col-12 p-2 text-center section-title-inverse font-weight-bold">ARROCES</h3>
-
-
-        </section>
-
-        <!--    Items    -->
-        <div class="products-list">
-
-          <section class="row">
-
-            <h6 class="col-10"><b>POLLO.</b>
-              Cebolla, ajo, puerro, verdeo, apio, brotes de soja, huevo, jamón y aceite de sésamo.
-            </h6>
-            <h6 class="col-2"><b>$2700</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>LANGOSTINOS.</b>
-              Cebolla, ajo, puerro, verdeo, apio, brotes de soja, huevo, jamón y aceite de sésamo.
-            </h6>
-            <h6 class="col-2"><b>$2900</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>POLLO Y LANGOSTINOS.</b>
-              Cebolla, ajo, puerro, verdeo, apio, brotes de soja, huevo, jamón y aceite de sésamo.
-            </h6>
-            <h6 class="col-2"><b>$2900</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>5 SABORES.</b>
-              Pollo, langostinos, cerdo, jamón, huevo, cebolla, brotes, verdeo y puerro.
-            </h6>
-            <h6 class="col-2"><b>$3000</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>CHULETA AHUMADA.</b>
-              Huevo, cebolla, verdeo, brotes de soja y apio.
-            </h6>
-            <h6 class="col-2"><b>$3000</b></h6>
-
-          </section>
-
-          <section class="row">
-
-            <h6 class="col-10"><b>VEGETALES.</b>
-              Cebolla, ajo, puerro, verdeo, apio, brotes de soja, zanahoria, zuquinni y aceote de sésamo.
-            </h6>
-            <h6 class="col-2"><b>$1800</b></h6>
-
-          </section>
-
-        </div>
-
-
-      </div>
-
-      <!--    BEBIDAS    -->
-      <div class="row justify-content-between ali">
-
-
-        <!--    Left Box    -->
-        <div class="col-12 col-lg-5">
-
-          <!--    CLASICAS    -->
-          <section class="col-12">
-
-            <!--    Title    -->
-            <section id="bebidas" class="row">
-
-              <div id="bebidas-img" class="section-img">
-
-                <img src="img/tequenio.jpg" alt="Foto de tequeños (bastonsitos de masa con queso)" srcset="">
-              </div>
-
-              <h3 class="bg-my-primary col-12 p-2 text-center section-title font-weight-bold">BEBIDAS</h3>
-
-            </section>
-
-            <!--    Items    -->
-            <div class="products-list">
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Malta</b>
-
-                </h6>
-                <h6 class="col-2"><b>$560</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Limonada</b>
-
-                </h6>
-                <h6 class="col-2"><b>$600</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Limonada con menta</b>
-
-                </h6>
-                <h6 class="col-2"><b>$750</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Limonada con menta y jengibre</b>
-
-                </h6>
-                <h6 class="col-2"><b>$750</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Coca-Cola</b>
-
-                </h6>
-                <h6 class="col-2"><b>$500</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Pepsi</b>
-
-                </h6>
-                <h6 class="col-2"><b>$500</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Sprite</b>
-
-                </h6>
-                <h6 class="col-2"><b>$500</b></h6>
-
-              </section>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--    Rigth Box    -->
-        <div class="col-12 col-lg-5">
-
-          <!--    LICUADOS    -->
-          <section class="col-12">
-
-
-            <!--    Title    -->
-            <section id="licuados" class="row justify-content-end">
-
-              <div id="licuados-img" class="section-img">
-                <img src="img/licuados.jpg" alt="Foto de tequeños (bastonsitos de masa con queso)" srcset="">
-              </div>
-
-              <h3 class="bg-my-primary col-12 p-2 text-center section-title-inverse font-weight-bold">LICUADOS
-              </h3>
-
-            </section>
-
-            <!--    Items    -->
-            <div class="products-list">
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Guayaba</b>
-
-                </h6>
-                <h6 class="col-2"><b>$980</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Guanabana</b>
-
-                </h6>
-                <h6 class="col-2"><b>$1100</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Maracuyá</b>
-
-                </h6>
-                <h6 class="col-2"><b>$980</b></h6>
-
-              </section>
-
-              <section class="row">
-
-                <h6 class="col-10"><b>Durazno</b>
-
-                </h6>
-                <h6 class="col-2"><b>$850</b></h6>
-
-              </section>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-
-      </div>
 
     </main>
 
   </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+
+
+  <div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="contact-modal-label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="contact-modal-label">Realiza tu pedido mediante</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+
+          <a class="d-flex flex-wrap text-decoration-none" target="_blank" href="https://www.instagram.com/cocinasinfrontera/">
+            
+            <!-- Logo -->
+            <div class="contact-logo col-1">
+              <img src="img/logo-ig.png" alt="Logo de Instagram">
+            </div>
+
+            <!-- Contact -->
+            <div class="contact-info col-11">
+              <p>@cocinasinfrontera</p>
+            </div>
+
+          </a>
+          
+          <a class="row text-decoration-none" target="_blank" href="https://wa.me/541135106433">
+            
+            <!-- Logo -->
+            <div class="contact-logo col-1">
+              <img src="img/logo-wpp.png" alt="Logo de Whatsapp">
+            </div>
+
+            <!-- Contact -->
+            <div class="contact-info col-11">
+              <p>+54 11 3510-6433</p>
+            </div>
+
+          </a>
+          
+          <a class="d-flex flex-wrap text-decoration-none" target="_blank" href="tel:+53568535">
+            
+            <!-- Logo -->
+            <div class="contact-logo col-1">
+              <img src="img/logo-tel.png" alt="Logo de telefono">
+            </div>
+
+            <!-- Contact -->
+            <div class="contact-info col-11">
+              <p>53568535</p>
+            </div>
+
+          </a>
+          
+          <a class="d-flex flex-wrap text-decoration-none" target="_blank" href="https://www.google.com/maps/place/Cocina+sin+frontera/@-34.6082715,-58.4803874,16.96z/data=!4m6!3m5!1s0x95bcc9c78cb2fcff:0x247e6fc3acecd9c3!8m2!3d-34.6078252!4d-58.4787529!16s%2Fg%2F11n16679ff?entry=ttu">
+            
+            <!-- Logo -->
+            <div class="contact-logo col-1">
+              <img src="img/logo-ubi.png" alt="Logo de ubicación">
+            </div>
+
+            <!-- Contact -->
+            <div class="contact-info col-11">
+              <p>Villa General Mitre</p>
+            </div>
+
+          </a>
+
+          <a class="d-flex flex-wrap text-decoration-none" target="_blank" href="https://www.pedidosya.com.ar/restaurantes/buenos-aires/cocina-sin-frontera-menu?sem_tracker=14862313847&pycat=googlesearch&cmp=&ag=&kwd=cocina%20sin%20frontera&mt=e&net=g&dev=c&sitelink=&gclid=Cj0KCQjwiIOmBhDjARIsAP6YhSXVynQyGXGAUdeDpMcYwq9YGXGkV9PexAygOf2qQ3Kr7QJBIZ_Ch4AaAvYZEALw_wcB">
+            
+            <!-- Logo -->
+            <div class="contact-logo col-1">
+              <img src="img/logo-pedidosya.png" alt="Logo de pedidos ya">
+            </div>
+
+            <!-- Contact -->
+            <div class="contact-info col-11">
+              <p>PedidosYa</p>
+            </div>
+
+          </a>
+          
+          <section class="d-flex flex-wrap">
+            
+            <!-- Logo -->
+            <div class="contact-logo col-1">
+              <img src="img/logo-deli.png" alt="Logo de delivery">
+            </div>
+
+            <!-- Contact -->
+            <div class="contact-info col-11">
+              <p>Consultar por Delivery</p>
+            </div>
+
+          </section>
+
+
+
+
+
+
+          
+        </div>
+        <div class="modal-footer">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- contact modal -->
+  <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal-label"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Realiza tu pedido mediante</h5>
+          <h5 class="modal-title" id="contact-modal-label">Realiza tu pedido mediante</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -1097,10 +288,8 @@
     </div>
   </div>
 
-  <!--    Jquery    -->
-  <script type="text/javascript" src="jquery/jquery-3.6.4.min.js"></script>
-  <!--    Bootstrap JS    -->
-  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+  <script type="module" src="index.js"></script>
 
 
   <!-- By Guido do Rego guidorego@gmail.com -->
