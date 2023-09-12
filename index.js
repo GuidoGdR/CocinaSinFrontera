@@ -1,4 +1,6 @@
 
+import 'bootstrap';
+
 import { uuid } from './vars';
 
 import { createNavbarComponentsFrag } from './tools/createNavbarComponentsFrag';
