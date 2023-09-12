@@ -1,5 +1,5 @@
 
-export function createMenuFrag({ data }){
+export function createMenuFrag({ data, imgsReady=false }){
     
     const documentFragment = document.createDocumentFragment();
 
@@ -23,6 +23,7 @@ export function createMenuFrag({ data }){
             
             let subCatName = subCat.name 
 
+            let subCatRef = subCatName.trim().replaceAll(" ", "_")
 
 
             let subCatBox = document.createElement("section");
@@ -40,20 +41,25 @@ export function createMenuFrag({ data }){
             // img
             if ( subCat.img){
 
-                let subCatImgUrl = subCat.img
                 
                 let pictureBox = document.createElement("section");
                 pictureBox.classList.add("section-img", "col-12");
-
+                
                 titleAndPicBox.appendChild(pictureBox);
-
-
-                let imgElement = document.createElement("img")
-                imgElement.src = subCatImgUrl
+                
+                
+                let imgElement = document.createElement("img");
+                imgElement.id = `${categorieRef}-${subCatRef}-img`;
                 imgElement.alt = `Img of category: ${categorieName} sub-category: ${subCatName}`;
-
+                imgElement.loading = "lazy" 
+                
+                if(imgsReady){
+                    
+                    imgElement.src = subCat.img
+                }
+                    
                 pictureBox.appendChild(imgElement);
-            }
+            };
 
             //title
             let subCatTitle = document.createElement("h3");
